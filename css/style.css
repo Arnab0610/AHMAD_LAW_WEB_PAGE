@@ -1,0 +1,940 @@
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+    }
+
+#radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+}
+
+#radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}
+
+
+
+
+.wb-color{
+    text-decoration: none;
+    color: black;
+}
+.wb-icon{
+    font-size:30px;
+}
+.wb-img-fluid{
+    width: 100%;
+    display: block;
+    height: 800px;
+    
+}
+.wb-overlay{
+    background-color: rgba(70, 131, 180, 0.897);
+    width: 100%;
+    height: 800px;
+}
+.wb-overlay-2{
+    background-color: rgba(70, 131, 180, 0.897);
+    width: 100%;
+    height: 802px;
+    border-top-left-radius: 85px;
+    border-bottom-right-radius: 103px;
+
+}
+.wb-logo{
+    width: 60%;
+}
+.wb-text{
+    padding-top: 10%;
+    padding-left: 4%;
+}
+
+.wb-img-overley{
+    position: absolute; 
+    bottom: 4px;
+    right: 80%;
+}
+
+.wb-box44{
+    height: 802px;
+    overflow: hidden;
+}
+.wb-text-p-1{
+    font-size: 32px;
+    font-weight: 600
+}
+.wb-text-p-2{
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1;
+}
+.wb-text-p-3{
+    font-size: 17px;
+    font-weight: 700;
+}
+.wb-text-p-4{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.wb-button{
+    width: 36%;
+
+    margin-top: 2%;
+}
+.wb-bg{
+    background-color: #F0FAEF;
+    margin-top: 19.9%;
+    padding: 21px;
+    width: 20%;
+}
+.wb-font-p{
+    font-weight: bold;
+    line-height:0;
+}
+.wb-card-img{
+    width: 30%;
+    margin: 6% auto;
+    
+}
+.wb-p{
+    line-height: 0;
+}
+
+.wb-box{
+    width: 172px;
+    height: 400px;
+    margin-top: 100px;
+    border: none;
+    background-color: #A9DBDC;
+}
+.wb-box-2{
+    margin-left: 70px;
+    margin-top: -46%;
+    border:none;
+}
+
+.wb-box-3{
+    width: 19%;
+    margin-top: -433px;
+    margin-left: 293px;
+    height: 433px;
+    border: none;
+}
+.wb-text-p-5{
+    font-size: 14px;
+    padding-right: 300px;
+}
+.wb-text-p-5-1{
+    font-size: 14px;
+    padding-left: 300px;
+}
+.wb-ul-m{
+    margin-left: 102px;
+}
+
+.wb-box-4{
+    width: 172px;
+  height: 400px;
+  margin-top: 100px;
+  border: none;
+  background-color: #A9DBDC;
+  margin-left: 326px;
+}
+.wb-box-5{
+    margin-left: -230px;
+    margin-top: -41%;
+    border: none;
+    
+
+}
+
+.wb_position-img
+{
+
+    position: absolute;
+    top: 22px;
+    left: -150px;
+    z-index: 9999;
+      
+}
+.mb_padding-left{
+
+    padding-left: 566px;
+    padding-top: 166px;
+
+}
+
+.wb-box-6{
+    width: 19%;
+    margin-top: -416px;
+    margin-left: 66px;
+    height: 433px;
+    border: none;
+}
+.wb-ul-m-1-2{
+    padding-left: 389px;
+}
+
+
+.wb-box-21{
+    margin-top: 6%;
+}
+
+
+.wb-box-22 {
+    border-top-left-radius: 13%;
+    background-color: #457B9D;
+    height: 843px;
+    width: 85%;
+    color: white;
+}
+/* .wb-box-3{
+    
+    margin-top: 0;
+    margin-left: 0;
+} */
+
+.wb-cf{
+    margin-top: 10%;
+}
+.wb-text-s{
+    width: 100%;
+    font-size: 44px;
+    font-weight: bold;
+}
+.wb-text-para{
+    margin-top: -89px;
+    margin-left: 109px;
+}
+.wb-text-para-1{
+    font-size: 12px;
+    margin-left: 24%;
+    margin-top: -2%;
+
+}
+
+.wb-img-m{
+   margin-left: -16%;
+}
+.wb-img-top{
+    margin-top: 183px;
+}
+.wb-text-para-3{
+    padding: 7px;
+}
+.wb-over{
+    color: rgba(42, 42, 167, 0.792);
+}
+.wb-box-20{
+    width: 90%;
+    background-color: #457B9D;
+    color: white;
+    /* border-radius: ; */
+    
+}
+.wb-card{
+    padding: 122px 159px 338px 588px;
+}
+
+.wb-botton{
+    margin-top: 154px;
+}
+.wb-botton-2{
+    margin-top: 19px;
+
+}
+.wb-botton-3{
+    margin-top: 18px;
+
+}
+.wb-icon{
+    letter-spacing: 20px;
+}
+
+  
+.ftco-footer-social li 
+{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block; 
+}
+.ftco-footer-social li a 
+{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.ftco-footer-social-2 li 
+{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block; 
+}
+.ftco-footer-social-2 li a 
+{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: #457B9D;
+    border-radius: 50%;
+    
+    position: relative;
+}
+.ftco-footer-social-3 li 
+{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block; 
+}
+.ftco-footer-social-3 li a 
+{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background:transparent;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ftco-white-icon
+{
+    background: #ffffff!important;
+    border: 1px solid red;
+    color: red!important; 
+}
+
+.copyright{position: relative;}
+.copyright::before{ 
+    width: 35%; 
+    height: 1px; 
+    background: white;
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: 0;
+}
+.copyright::after{ 
+    width: 35%; 
+    height: 1px; 
+    background: white;
+    content: "";
+    position: absolute;
+    top: 62px;
+    right: 0;
+}
+.icon-arrow{position: relative;}
+.icon-arrow::after
+{
+    font: var(--fa-font-solid);
+    content: '\f178';
+    position: absolute;
+    top: 5px;
+    right: 71%;
+}
+
+@media screen and (max-width: 1460px) and (min-width:1024px)
+{
+    .wb-bg {
+        margin-top: 26.1%;
+        margin-left: 212px;
+        width: 28%;
+      }
+    .wb-img-overley {
+        position: absolute;
+        bottom: 0px;
+        right: 82%;
+      }
+
+    .wb-box-22 {
+        height: 121%;
+    }
+    .wb-m-t{
+        margin-left: -84px;
+    }
+
+}
+
+@media screen and (max-width: 992px) and (min-width:769px)
+{
+    .wb-logo {
+        margin-top: 10px;
+    }
+    .wb-img-overley{
+        display: none;
+    }
+    .wb-bg {
+        width: 40%;
+    }
+    .wb-button {
+        width: 93%;
+        padding: 18px;
+    }
+
+    .wb-text-p-5 {
+        padding-right: 5px;
+    }
+
+    .wb-m{
+        margin-top: 84px !important;
+    }
+    .wb-text-p-5-1 {
+        padding-left: 4px;
+    }
+    .wb-m-t{
+        margin-left: -61px;
+    }
+    .wb-card {
+        padding: 50px 20px 0 299px;
+    }
+    .wb-box-22 {
+        border-top-left-radius: 13%;
+        background-color: #457B9D;
+        height: 66%;
+        width: 90%;
+        color: white;
+      }
+
+      .wb_position-img
+    {
+        position: absolute;
+        top: -104px;
+        left: -87px;
+        z-index: 9999;
+    }
+    .mb_padding-left{
+        padding-left: 196px;
+        padding-right: 164px;
+
+        padding-top: 73px;
+    }
+      .wb-box-22 {
+        height: 633px;
+      }
+      
+    .wb-img-33 {
+        margin-top: 304px !important;
+        width: 40%;
+    }
+
+    .wb-text-para-1 {
+        margin-left: 34% !important;
+        font-size: 11px;
+    }
+    .wb-m-img{
+        width: 184px;
+        margin-top: 302px !important;
+        margin-left: 68px !important;
+    }
+    .wb-m-img-2{
+        width: 168px;
+        margin-top: -370px !important;
+        margin-left: 246px !important;
+    }
+
+    .wb-meet-botton{
+        width: 28% !important;
+    }
+
+    .wb-botton-4{
+        margin: 34px !important; 
+    }
+    .wb-botton{
+        margin-top: 166px;
+
+    }
+    .icon-arrow::after {
+        /* font: var(--fa-font-solid);
+        content: '\f178';
+        position: absolute;
+        top: 5px; */
+        right: 60%;
+      }
+      .copyright::before {
+        width: 29%;
+    }
+    .copyright::after {
+        width: 29%;
+    }
+    
+} 
+@media screen and (max-width:768px) and (min-width:576px){
+    .wb-order1{
+        order: 1;
+    }
+    .wb-order2{
+        order: 2;
+    }
+    .wb-button {
+        width: 51%;
+      }
+
+    .wb-order3{
+        order: 3;
+    }
+    .wb-left{
+        margin-left: -24px;
+    }
+    .wb-bg {
+        margin-top: -0.3%;
+        padding: 17px;
+        width: 67%;
+        margin-left: 161px;
+      }
+      .wb-text-p-1 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .wb-text-p-2 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+      }
+      .wb-img-overley {
+       display: none;
+      }
+
+      .wb-box-3 {
+        width: 18%;
+        margin-top: -185px;
+        margin-left: 179px;
+        height: 170px;
+        border-radius: 0;
+    }
+        .wb-box-2 {
+        width: 8rem !important;
+        margin-left: 70px;
+        margin-top: -17%;
+        border: none;
+      }
+      .wb-box {
+        width: 125px;
+        height: 185px;
+        margin-top: 100px;
+      }
+      .wb-sm {
+        margin-top: 37px !important;
+        margin-left: -5px;
+      }
+
+      .wb-text-p-5 {
+        font-size: 15px;
+        padding-right: 93px;
+      }
+    .wb-ul-m {
+        margin-left: 74px;
+        font-size: 15px;
+    }
+
+    .wb-ul-sm{
+        font-size: 11px;
+
+    }
+    .wb-font-sm {
+        font-size: 15px;
+        margin-left: 13px;
+    }
+    .wb-sm-img{
+        margin-bottom: 132px !important;
+        width: 200px;
+        margin-top: 172px !important;
+    }
+    .wb-box-22 {
+
+        height: 531px;
+    }
+    .wb-sm-h1 {
+        font-size: 19px;
+      }
+    .wb-sm-body{
+        /* margin-left: -420px;
+        margin-top: -82px; */
+        padding-right: 96px;
+    }
+    .wb_position-img
+    {
+        position: absolute;
+        top: -35px;
+        left: -87px;
+        z-index: 9999;
+    }
+    .mb_padding-left {
+        padding-left: 110px;
+        margin-top: -92px;
+      }
+    .wb-sm-p{
+        margin-top: 31px !important;
+        font-size: 11px;
+    }
+    
+    .wb-sm-h6 {
+        font-size: 14px;
+    }
+
+    .wb-text-para-1 {
+        margin-left: 31%;
+    }
+    .wb-m-img{
+        margin-top: 82px !important;
+        margin-left: 5px !important;
+        width: 50% !important;
+    }
+
+    .wb-m-img-2{
+        margin-top: -513px !important;
+        margin-left: 239px !important;
+        width: 45% !important;
+    }
+    .wb-sm-botton{
+        width: 25% !important;
+    }
+    .wb-botton{
+        margin-top: 87px;
+        
+    }
+    .wb-botton-2{
+        margin-left: 0;
+        margin-top: 19px;
+    
+    }
+    .wb-botton-3{
+        margin-left:0;
+        margin-top: 18px;
+    }
+    .wb-sm-botton-2{
+        width: 32% !important;
+    }
+    .wb-botton-4{
+        width: 86% !important;
+        margin-top: 35px !important;
+        margin-left: 26px !important;
+    }
+    .copyright::after {
+        width: 13%;
+    }
+    .copyright::before {
+    width: 13%;
+    }
+    .wb-sm-botton-23{
+        width: 54% !important;
+    }
+
+    .icon-arrow::after {
+        right: 76%;
+    }
+
+    .wb-box-6 {
+        width: 7%;
+        margin-top: -167px;
+        margin-left: 312px;
+        height: 168px;
+        border: none;
+      }
+    .wb-box-5 {
+        width: 8rem !important;
+        margin-left: -68px;
+        margin-top: -22%;
+        border: none;
+    }
+    .wb-box-4 {
+        width: 125px;
+        height: 172px;
+        margin-top: -571px;
+        border: none;
+        background-color: #A9DBDC;
+        margin-left: 394px;
+      }
+      .wb-text-p-5-1 {
+        font-size: 14px;
+        padding-right: 93px;
+        padding-left: 0;
+      }
+    .wb-text-left{
+        text-align: left !important;
+    }
+    .wb-text-dir{
+        direction: inherit;
+        margin-left: -13px;
+    }
+    .wb-text-dir-2{
+        direction: inherit;
+    margin-left: 80px;
+  
+
+    }
+    .wb-jc-2{
+        justify-content: left !important;
+    }
+
+
+
+
+}
+@media screen and (max-width:575px) and (min-width:320px)
+{
+
+    .wb-box-4 {
+        width: 172px;
+        height: 267px;
+        margin-top: 78px;
+        border: none;
+        background-color: #A9DBDC;
+        margin-left: 83px;
+      }
+      
+      .wb-box-6 {
+        width: 19%;
+        margin-top: -251px;
+        margin-left: 18px;
+        height: 241px;
+        border: none;
+      }
+      
+
+      .wb-box-5 {
+        width: 11rem !important;
+        margin-left: -43px;
+        margin-top: -17%;
+        border: none;
+      }
+    .wb-order1{
+        order: 1;
+    }
+    .wb-order2{
+        order: 2;
+    }
+    .wb-button {
+        width: 51%;
+      }
+
+    .wb-order3{
+        order: 3;
+    } 
+
+    .wb-jc{
+        justify-content: flex-end;
+    }
+    .wb-sp-text{
+        font-size: 15px;
+    }
+    .wb-icon {
+        font-size: 15px;
+    }
+    
+
+    .wb-text {
+        padding-top: 0;
+      }
+    .wb-text-p-1 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    .wb-text-p-2 {
+        font-size: 15px;
+      }
+      .wb-text-p-4 {
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .wb-button {
+        width: 96%;
+        margin-top: 2%;
+    }
+    .wb-img-overley {
+        display: none;
+      }
+    .wb-bg {
+        background-color: #F0FAEF;
+        margin-top: 16.9%;
+        padding: 21px;
+        width: 94%;
+      }
+
+    .wb-box-3 {
+        width: 19%;
+        margin-top: -249px;
+        margin-left: 223px;
+        height: 235px;
+        border: none;
+    }
+    .wb-box-2 {
+        width: 11rem !important;
+        margin-left: 70px;
+        margin-top: -23%;
+        border: none;
+    }
+    .wb-box {
+        width: 172px;
+        height: 237px;
+        margin-top: 100px;
+
+    }
+    .wb-text-p-5 {
+        font-size: 14px;
+        padding-right:0;
+    }
+    .wb-ul-m {
+        margin-left: 0px;
+    }
+    .wb-text-p-5-1 {
+        padding-left: 0;
+    }
+    .wb-text-para-1 {
+        margin-left: 31% !important;
+    }
+
+    .wb-box-22 {
+        border-top-left-radius: 13%;
+        background-color: #457B9D;
+        height: 561px;
+        width: 90%;
+        color: white;
+        margin-top: 70px;
+      }
+    .wb_position-img {
+        position: absolute;
+        top: -68px;
+        left: -8px;
+        z-index: 9999;
+    }
+    .wb-col-body {
+        margin-left: -549px;
+        margin-top: -45px;
+    }
+    .wb-col-h1{
+        font-size: 14px;
+
+    }
+    .wb-col-h6 {
+        padding-right:0;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+    .wb-col-p {
+        padding-right: 0;
+        font-size: 10px;
+        margin-top: 22px !important;
+      }
+    .wb-col-img{
+        margin-top: 0 !important;
+        width: 140px;
+        margin-left: 79px;
+        margin-bottom: 495px;
+    }
+    .wb-text-para-1 {
+        font-size: 9px;
+        margin-left: 2% !important;
+        margin-top: -2%;
+      }
+    .wb-body-col{
+        margin-top: 54px;
+    }
+    .wb-img-col{
+        width: 56px;
+    }
+    .wb-text-para {
+        margin-top: -52px;
+        margin-left: 63px;
+      }
+    .wb-col-img-1{
+        margin-top: 34px !important;
+        margin-left: -13px !important;
+        width: 141px;
+      }
+    .wb-col-img-2{
+        margin-top: -294px !important;
+        margin-left: 122px !important;
+        width: 129px;
+      }
+    .wb-col-font-1{
+        font-size: 24px !important;
+
+      }
+
+    .wb-col-botton{
+        width: 98% !important;
+      }
+    .wb-col-botton-1 {
+        width: 40% !important;
+        font-size: 15px !important;
+      }
+      .wb-col-botton-2 {
+        width: 57% !important;
+        font-size: 15px !important;
+    }
+    .wb-botton {
+        margin-top: 45px;
+        margin-left: -19px;
+      }
+    .wb-botton-2 {
+        margin-left: -16px;
+        margin-top: 19px;
+      }
+      .wb-botton-3 {
+        margin-left: -8px;
+        margin-top: 18px
+      }
+      .wb-col-botton-4{
+        width: 105% !important;
+        margin-top: 49px !important;
+        margin-left: -5px !important;
+      }
+      .wb-col-font-2{
+        font-size: 19px !important;
+        font-weight: bold !important;
+      }
+      .icon-arrow::after {
+        font: var(--fa-font-solid);
+        content: '\f178';
+        position: absolute;
+        top: 5px;
+        right: 51%;
+      }
+      .copyright::after {
+        width: 19%;
+      }
+      
+    .copyright::before {
+        width: 19%;
+    }
+}
+
+

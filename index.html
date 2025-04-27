@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    
+</head>
+<body>
+    <div calss="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-sm-4 col-12 wb-order1 text-center">
+                    <img src="image/Ahmad Law_final logo 1.jpg" class="wb-logo" alt="">
+
+                </div>
+                <div class="col-lg-4 col-sm-2 col-6 mt-2 .fs-3 wb-order3">
+                    <nav class="navbar navbar-expand-lg wb-jc">
+                        <!-- <div class="container-fluid"> -->
+                          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active wb-color" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link wb-color" href="#">About Us</a>
+                              </li>
+                             
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle wb-color" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Practice Areas 
+                                </a>
+                                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul> -->
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link wb-color" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                              </li>
+                            </ul>
+                          </div>
+                        <!-- </div> -->
+                      </nav>
+
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-6 wb-order2 wb-left">
+                   
+                    <p class="text-center fs-6 wb-font-p-1 mb-0">Consult with Us :</p>
+                    <p class="text-center fw-bold fs-4 "> <i class="fa-solid fa-phone-volume wb-icon "></i> <span class="wb-sp-text"> 0123 456 789 </span></p>
+
+                </div>
+                <div class="col-lg-3 mt-3">
+                  <button type="button" id="login-btn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Login
+                </button>
+
+            </div>
+            
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="loginClear()"></button>
+          </div>
+          <div class="modal-body">
+
+            <!-- Section: Design Block -->
+            <section class="background-radial-gradient overflow-hidden">
+
+              <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+                <div class="row gx-lg-5 align-items-center mb-5">
+                  <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+                    <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+                      The best offer <br />
+                      <span style="color: hsl(218, 81%, 75%)">for your business</span>
+                    </h1>
+                    <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Temporibus, expedita iusto veniam atque, magni tempora mollitia
+                      dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+                      ab ipsum nisi dolorem modi. Quos?
+                    </p>
+                  </div>
+
+                  <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+                    <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+                    <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+
+                    <div class="card bg-glass">
+                      <div class="card-body px-4 py-5 px-md-5">
+                        <form method="post">
+                          <!-- 2 column grid layout with text inputs for the first and last names -->
+                          <!-- <div class="row">
+                            <div class="col-md-6 mb-4">
+                              <div data-mdb-input-init class="form-outline">
+                                <input type="text" id="form3Example1" class="form-control" />
+                                <label class="form-label" for="form3Example1">First name</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                              <div data-mdb-input-init class="form-outline">
+                                <input type="text" id="form3Example2" class="form-control" />
+                                <label class="form-label" for="form3Example2">Last name</label>
+                              </div>
+                            </div>
+                          </div> -->
+
+                          <!-- Email input -->
+                           
+                          <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="email" id="login-user" class="form-control" placeholder="Email address" />
+                            <!-- <label class="form-label" for="form3Example3" required></label> -->
+                          </div>
+
+                          <!-- Password input -->
+                          <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="password" id="login-password" class="form-control" placeholder="Password" />
+                            <!-- <label class="form-label" for="form3Example4" >Password</label> -->
+                          </div>
+
+                          <!-- Checkbox -->
+                          <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                            <label class="form-check-label" for="form2Example33">
+                              Remember password
+                            </label>
+                          </div>
+
+                          <!-- Submit button -->
+                          <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4" onclick="login()">
+                            login
+                          </button>
+
+                          <!-- Register buttons -->
+                          <div class="text-center">
+                            <p>or sign up with:</p>
+                            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-facebook-f"></i>
+                            </button>
+
+                            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-google"></i>
+                            </button>
+
+                            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-twitter"></i>
+                            </button>
+
+                            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-github"></i>
+                            </button>
+                          </div>
+                          <div class="col-12">
+                            <div class="alert alert-danger" role="alert" id="alt-msg">
+                              user or password do not match!
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+<!-- Section: Design Block -->
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid position-relative wb-box44">
+        <img src="image/image 70.png" class=" wb-img-fluid" alt="">
+        <div class="card-img-overlay wb-overlay">
+            <div class="row justify-content-around">
+                <div class="col-xl-5 col-lg-6 col-sm-12 col-12 wb-text text-white ">
+                    <p class="card-title wb-text-p-1 ">Providing Trusted Legal Advice</p>
+                    <p class="card-text wb-text-p-2">Across The GTA for Over a Decade</p>
+                    <p class="card-text wb-text-p-3 ">INTEGRITY. EXCELLENCE. PROVEN RESULTS</p>
+                    <p class="text-start wb-text-p-4">
+                        At Ahmad Law, we deliver top-tier legal services in real estate and 
+                        family law, with a dedicated team of lawyers committed to providing 
+                        strategic legal solutions tailored to meet the needs of individuals, 
+                        families, and businesses alike
+                    </p>
+
+                    <p>
+                      <button type="button" class="btn btn-light btn-sm wb-button">We've Got Your Legal Back
+                      Book Your Free Consultation</button>
+                    </p>
+
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-12 col-12 position-relative wb-bg ">
+                    <div class="w-100 border p-3">
+                      <p class="fs-5">Schedule</p>
+                      <p class="wb-font-p fs-4">a Consultation</p>
+                        <div class="mb-3">
+                          <input class="form-control" type="text" name="name" placeholder="Your Name" required>
+                          </div>
+                          <div class="mb-3">
+                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                          </div>
+                          <div class="mb-3">
+                            <input class="form-control" type="email" name="email" placeholder="Phone No" required>
+                          </div>
+                          <div class="mb-3">
+                            <select class="form-select mt-3" required>
+
+                              <option selected value="">Select Service</option>
+                              <option value="jweb">Junior Web Developer</option>
+                              <option value="sweb">Senior Web Developer</option>
+                              <option value="pmanager">Project Manager</option>
+                            </select>
+
+                     <button type="button" class="btn btn-danger mt-3">Submit</button>
+                    </div>
+                   
+                </div>
+                <div class="wb-img-overley">
+                  <img src="image/business-woman-banner-concept-with-copy-space-Photoroom 1.png" alt="">
+                </div>
+            </div>
+            
+          </div>
+
+    </div>
+  </div>
+    <div class="container-fluid mt-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-sm-12 col-6  ">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img src="image/New Project(3).png" class="wb-card-img" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center fw-bold fs-3 ">30+</p>
+                <p class="card-text text-center fs-5 wb-p">Years Experience</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-12 col-6">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img src="image/Group 34.png" class="wb-card-img" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center fw-bold fs-3 ">100+</p>
+                <p class="card-text text-center fs-5 wb-p">Clients Served</p>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-lg-3 col-sm-12 col-6">
+            <div class="card shadow p-3 mb-5 bg-body rounded" >
+              <img src="image/Group 38.png" class="wb-card-img" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center fw-bold fs-3 ">250+</p>
+                <p class="card-text text-center fs-5 wb-p">5 Star Reviews</p>
+              </div>
+            </div>
+          </div>
+
+          
+
+            <div class="col-lg-3  col-sm-12 col-6">
+              <div class="card shadow p-3 mb-5 bg-body rounded" >
+
+                <img src="image/Group 34.png" class="wb-card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center fw-bold fs-3 ">100%</p>
+                  <p class="card-text text-center fs-5 wb-p">Passionate Team</p>
+                </div>
+              </div>
+            </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid"> 
+      <div class="container">
+        <div class="col-lg-12 col-sm-12">
+          <p class="text-center fs-2 fw-bolder ">
+            Areas of Expertise
+          </p>
+
+        </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container ">
+       <div class="row">
+        <div class="col-xl-4 col-lg-5 col-12 col-sm-5 ">
+
+          <div class="card wb-box">
+            <div class="card wb-box-2"style="width: 18rem;">
+
+              <img src="image/Mask group.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="card bg-white wb-box-3" >
+          </div>
+
+        </div>
+        <div class="col-xl-8 col-lg-7 col-12 wb-sm ">
+          <div class=" mt-5 wb-m">
+              <p class="fs-1 fw-bold">Family Law</p>
+              <p class="wb-text-p-5">Navigating family law matters can be emotionally challenging and, at many times, may seem difficult to resolve. At Ahmad Law, our compassionate team is committed to offering clear guidance and supportive legal assistance that is focused on easing complex situations and achieving the best outcome for you and your loved ones.
+              . </p>
+              <p class="fs-6 fw-bold">Our Family Law Services Include:</p>
+                <div class="d-flex">
+                  <ul class="p-0 wb-font-sm">
+                    <li> Child Custody and Access</li>
+                    <li>Child Support</li>
+                    <li>Divorce</li>
+                    <li>Family & Divorce Mediation</li>
+                    <li>Property & Asset Division</li>
+                  </ul> 
+                  <ul class="wb-ul-m">
+                    <li> Separation</li>
+                    <li>Spousal Support</li>
+                    <li>Divorce</li>
+                    <li>Uncontested Divorce</li>
+                    <li>Islamic Divorces</li>
+                  </ul>
+              </div>
+              </div>
+              <a href="#" class="btn mt-4" style="background-color: #457B9D; color:white">Learn more</a>
+            </div>
+        </div>
+       </div>
+      </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="container ">
+     <div class="row">
+      
+      <div class="col-xl-8 col-lg-6  col-sm-12 col-12 text-end">
+        <div class=" mt-5">
+            <p class="fs-1 fw-bold text-end wb-text-left">Real Estate Law</p>
+            <p class="wb-text-p-5-1 text-end wb-text-left">Navigating family law matters can be emotionally challenging and, at many times, may seem difficult to resolve. At Ahmad Law, our compassionate team is committed to offering clear guidance and supportive legal assistance that is focused on easing complex situations and achieving the best outcome for you and your loved ones.
+            . </p>
+            <p class="fs-6 fw-bold text-end wb-text-left">Our Family Law Services Include:</p>
+              <div class="d-flex justify-content-end wb-jc-2">
+                <ul class="wb-text-dir" dir="rtl">
+                  <li class="text-end wb-text-left"> Child Custody and Access</li>
+                  <li class="text-end wb-text-left">Child Support</li>
+                  <li class="text-end wb-text-left">Divorce</li>
+                  <li class="text-end wb-text-left">Family & Divorce Mediation</li>
+                  <li class="text-end wb-text-left">Property & Asset Division</li>
+                </ul> 
+                <ul class="p-0 wb-text-dir-2"  dir="rtl">
+                  <li class="text-end wb-text-left"> Separation</li>
+                  <li class="text-end wb-text-left">Spousal Support</li>
+                  <li class="text-end wb-text-left">Divorce</li>
+                  <li class="text-end wb-text-left">Uncontested Divorce</li>
+                  <li class="text-end wb-text-left">Islamic Divorces</li>
+                </ul>
+            </div>
+            </div>
+            <a href="#" class="btn mt-4" style="background-color: #457B9D; color:white">Learn more</a>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-sm-12 wb-m-t">
+            <div class="card wb-box-4" >
+              <div class="card wb-box-5"style="width: 18rem;">
+                <img src="image/Mask group22.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="card bg-white wb-box-6" >
+            </div>
+    
+          </div>
+      </div>
+     </div>
+    
+    <div class="container-fluid mt-5">
+      <div class="container ">
+       <div class="row">
+        <div class="col-xl-4 col-lg-5 col-sm-12">
+    
+          <div class="card wb-box" >
+            <div class="card wb-box-2"style="width: 18rem;">
+              <img src="image/Mask group (2).png" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="card bg-white wb-box-3" >
+          </div>
+    
+        </div>
+        <div class="col-xl-8 col-lg-7 col-sm-12 ">
+          <div class=" mt-5 wb-m wb-sm">
+              <p class="fs-1 fw-bold">Wills & Estates</p>
+              <p class="wb-text-p-5">Planning for the future involves careful consideration and sensitive decisions. Ahmad Law offers expert guidance to manage every aspect of your estate planning. We are committed to simplifying complex issues and ensuring your wishes are clearly articulated and protected.
+              . </p>
+              <p class="fs-6 fw-bold">Our Wills & Estates Services Include:</p>
+                <div class="d-flex">
+                  <ul class="p-0 wb-font-sm">
+                    <li> Wills and Estate Planning</li>
+                    <li>Trusts</li>
+                    <li>Estate Administration</li>
+                    <li>Estate and Trust Litigation</li>
+                    <li>Guardianship and Capacity Issues</li>
+                    <li>Estate Taxes and Financial Planning</li>
+                  </ul> 
+                  <ul class="wb-ul-m">
+                    <li> Inheritance and Succession Planning</li>
+                    <li>Probate Process</li>
+                    <li>End-of-Life Planning</li>
+                    <li>Digital Assets and Online Estate Planning</li>
+                    <li>Elder Law</li>
+                    <li>Cross-Border Estate Planning</li>
+                  </ul>
+              </div>
+              </div>
+              <a href="#" class="btn mt-4" style="background-color: #457B9D; color:white">Learn more</a>
+            </div>
+        </div>
+       </div>
+      </div>
+
+
+
+
+
+
+<div class="container-fluid" style="margin-top: 10%;">
+  <div class="row">
+      <div class="col-lg-12 col-sm-12 col-12">
+        <div class="row justify-content-end">
+          <div class="border border-black wb-box-22 position-relative">
+            <div class="card bg-transparent border-0">
+              <div class="card-body wb-sm-body wb-col-body mb_padding-left">
+                <h1 class="fw-bold wb-sm-h1 wb-col-h1">Our Approach</h1>
+                  <h1 class="fw-bold wb-sm-h1 wb-col-h1">to Legal Excellence</h1>
+                <h6 class="card-subtitle mb-2 text-body-secondary mt-3 wb-sm-h6 wb-col-h6 ">At Ahmad Law, we believe that every client deserves personalized attention and a legal strategy tailored to their unique needs.</h6>
+                <p class="card-text mt-5 wb-sm-p wb-col-p">Our approach starts with listening – we take the time to understand your goals, challenges, and concerns before crafting a plan that is aligned with your best interests. Whether you’re facing a complex legal issue or seeking preventive advice, we focus on delivering clear guidance and practical solutions every step of the way.</p>
+
+                <p class="card-text mt-5 wb-sm-p wb-col-p">We pride ourselves on being proactive and strategic in our work. From meticulous case preparation to skillful negotiation and aggressive advocacy, we aim to achieve the best possible outcome for our clients. </p>
+                
+              </div>
+              <!-- <p>
+                <button type="button" class="btn btn-light btn-sm wb-button">We've Got Your Legal Back
+                Book Your Free Consultation</button>
+              </p> -->
+
+            </div>
+            <div class="wb_position-img">
+              <img src="image/Mask group (3).png" class="wb-img-33 wb-sm-img wb-col-img" style="margin-top: 102px;" alt="">
+  
+            </div>
+          </div>
+          
+
+        </div>
+         
+      </div>
+  </div>
+
+</div>
+
+<div class="container-fluid wb-cf">
+  <div class="container ">
+      <div class="card mb-3 border-0">
+          <div class="row g-0">
+            
+            <div class="col-xl-6 col-lg-6 ">
+              <div class="card-body ">
+                <h3 class="card-title fw-bold">Why Choose</h3>
+                <h3 class="card-title fw-bold">Ahmad Law?</h3>
+                <p class="card-text">With over a decade of combined legal expertise, our lawyers at Ahmad Law have an established reputation for delivering exceptional legal solutions that put our clients first, without compromising on professionalism and precision.</p>
+
+                  <div class="w-75 wb-body-col">
+                      <img src="image/Group 35 (1).png" class="wb-img-col" alt="">
+
+                      <p class="card-text fw-bold wb-text-para">10+ Years of Experience</p>
+                      <p class="card-text wb-text-para-1">Our extensive experience spans a broad spectrum of legal disciplines, giving our clients the confidence that their most critical matters are in capable hands. We don't just promise results; we deliver them through careful planning, meticulous attention to detail, and a deep understanding of the law.</p>
+
+                  </div>
+
+                  <div class="w-75 mt-5">
+                      <img src="image/Group 35 (1).png" class="wb-img-col" alt="">
+
+
+                      <p class="card-text fw-bold wb-text-para">Multilingual Expertise</p>
+                      <p class="card-text wb-text-para-1">Communication is key in any legal matter. Our team is equipped to offer legal services in English, Punjabi, Urdu, and Hindi, ensuring that language is never a barrier to accessing the legal support you need.</p>
+
+               </div>
+
+               <div class="w-75 mt-5">
+                      <img src="image/Group 35 (1).png" class="wb-img-col" alt="">
+
+                      <p class="card-text fw-bold wb-text-para">Tailored Legal Strategies</p>
+                      <p class="card-text wb-text-para-1">We take the time to listen, assess, and develop strategies that align with your specific goals, situations, and perspectives. Our focus is crafting legal solutions that address both immediate concerns and safeguard your future interests.</p>
+
+                  </div>
+                
+              </div>
+          </div>
+
+            <div class="col-xl-6 col-lg-6 ">
+              <div>
+                <img src="image/Group 37 (2).png" class="img-fluid rounded-start wb-m-img wb-col-img-1"  style="margin-top: 82px;margin-left: -19px;"alt="">
+              </div>
+              <div>
+                <img src="image/Group 38 (1).png" class="img-fluid rounded-start wb-m-img-2 wb-col-img-2"  style="margin-top:-753px;margin-left: 331px;"alt="">
+              </div>
+              
+              
+              
+              <!-- <div>
+                  <img src="image/dotted.png" class="img-fluid rounded-start"  style="margin-top: 82px;margin-left: -19px;"alt="">
+              </div>
+              <div>
+                  <img src="image/Mask group (4).png" class="img-fluid rounded-start" style="margin-top: -82px;"alt="">
+                  <img src="image/Mask group (6).png" class="img-fluid rounded-start"  style="margin-top: -218px;" alt="">
+
+              </div>
+              <div>
+                  <img src="image/Mask group (5).png" class="img-fluid rounded-start"  style="margin-top: -234px;margin-left: 372px "alt="">
+              </div>
+              <div>
+                  <img src="image/Ellipse 1.png" class="img-fluid rounded-start"  style="margin-top: -1162px;margin-left: 390px;"alt="">
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+
+  </div>
+
+</div>
+
+<div class=" container-fluid mt-5">
+  <div class=" container">
+      <div class="fw-bold text-center fs-1 wb-col-font-1">
+          <p>
+              Meet Our Legal Team
+          </p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mt-4 g-4">
+          <div class="col">
+            <div class="card h-100 border-0 shadow">
+              <img src="image/Mask group (7).png " class="card-img-top" style=" width: 150px; margin: 30px auto; " alt="...">
+              <div class="card-body p-0">
+                  <h5 class="card-title fw-bold text-center">Shafaq Ahmad</h5>
+                <p class="card-text text-center">B.A., J.D., LL.B.</p>
+                <p class="card-text text-center fw-bold">Founder</p>
+
+                <p class="card-text text-center wb-text-para-3">Shafaq Ahmad is the founder of Ahmad Law, bringing over a decade of experience from top legal firms and a commitment to personalized legal strategies.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow">
+              <img src="image/Mask group (8).png" class="card-img-top" style=" width: 150px; margin: 30px auto;" alt="...">
+              <div class="card-body p-0">
+                  <h5 class="card-title fw-bold text-center">Zubdah Ahmad</h5>
+                  <p class="card-text text-center">B.A., LL.B</p>
+                  <p class="card-text text-center fw-bold">Co-Founder</p>
+
+                  <p class="card-text text-center wb-text-para-3">Zubdah Ahmad co-founded Ahmad Law, with a background in corporate law and experience with leading Fortune 500 companies.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow">
+              <img src="image/Mask group (9).png" class="card-img-top" style=" width: 150px; margin: 30px auto;"  alt="...">
+              <div class="card-body p-0">
+                  <h5 class="card-title fw-bold text-center">Sumer Jafri</h5>
+                  <p class="card-text text-center">B.A., M.A., J.D.</p>
+                  <p class="card-text text-center fw-bold">Associate</p>
+
+                  <p class="card-text text-center wb-text-para-3">Sumer Jafri brings extensive legal and business experience working with a variety of clients over the years on legal transactions, contractual negotiations and strategic legal advice.
+                  </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 text-center">
+          <button type="button" class="btn btn-sm wb-meet-botton wb-sm-botton-23 wb-col-botton" style="width: 20%; background-color:#457B9D; color:white">Let our experienced lawyers guide you—schedule a free consultation</button>
+        </div>     
+  </div>
+
+</div>
+
+<div class=" container-fluid mt-5">
+  <div class="fw-bold text-center fs-1">
+      <p>
+          Testimonials
+      </p>
+  </div>
+</div>
+  <div class=" container">
+      <div class="row">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card border-0">
+                  <img src="image/Group 28.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0">
+                  <img src="image/Group 28.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+      </div>
+  </div>
+</div>
+<div class=" container-fluid position-relative mt-5 px-0">
+  <img src="image/Group 40 (1).png" class=" wb-img-fluid" alt="">
+  <div class="card-img-overlay">
+    <div class=" container ">
+      <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+        <p class="text-white text-center fs-1 mt-3">
+          Service Areas
+        </p>
+
+      </div>
+      <div class="col-xl-12 col-md-12 col-sm-12 col-12 text-center wb-botton ">
+        <button type="button" class="btn btn-lg m-2 text-white border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Toronto</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Brampton</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton-2 wb-col-botton-2 " style="width: 15%;">Mississauga</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Oakville</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Markham</button>
+      
+      </div>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center wb-botton-2">
+        <button type="button" class="btn btn-lg m-2 text-white border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Milton</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Ajax</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Whitby</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Vaughan</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton-2 wb-col-botton-2" style="width: 15%;">Richmond Hill</button>
+      
+      </div>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center wb-botton-3">
+        <button type="button" class="btn btn-lg m-2 text-white border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Pickering</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Oshawa</button>
+        <button type="button" class="btn btn-lg m-2 text-white bg-transparent border border-white wb-sm-botton wb-col-botton-1" style="width: 15%;">Burlington</button>
+        
+      
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+        <button type="button" class="btn btn-lg bg-white wb-botton-4 wb-col-botton-4">Experience The AHMAD LAW Advantage</button>
+      </div>
+
+      
+      
+      
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class=" container-fluid mt-5">
+  <div class=" container">
+      <div class="col-lg-12 col-12">
+        <h1 class=" text-center wb-col-font-2">
+          Legal Insights & Resources
+
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 mt-5">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/Mask group (12).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p style="color: #e83b45;"><i class="fa-solid fa-calendar-days"></i> January 1, 2023</p>
+                  <h4 class="card-title fw-bold">Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing.</h4>
+                  <p class="card-text w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet dignissim massa, in suscipit neque ...</p>
+                </div>
+                <p class="ps-3 icon-arrow" style="color: #457B9D;"> Learn More </p>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/Mask group (13).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p style="color: #e83b45;"><i class="fa-solid fa-calendar-days"></i> January 1, 2023</p>
+                  <h4 class="card-title fw-bold">Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing.</h4>
+                  <p class="card-text w-75">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                
+                <p class="ps-3 icon-arrow" style="color: #457B9D;"> Learn More</p>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/Mask group (14).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p style="color: #e83b45;"><i class="fa-solid fa-calendar-days "></i> January 1, 2023</p>
+                  <h4 class="card-title fw-bold">Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing.</h4>
+                  <p class="card-text w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet dignissim massa, in suscipit neque ...</p>
+                  </div>
+                  <p class="ps-3 icon-arrow" style="color: #457B9D; "> Learn More </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+  </div>
+
+</div>
+<div class=" container-fluid">
+  <div class=" container">
+    <div class="row justify-content-center">
+      <div class="col-lg-2 col-sm-4 col-7">
+        <ul class="ftco-footer-social-2 list-unstyled float-md-left float-lft mt-5" >
+          <li class="ftco-animate">
+            <a href="#"><i class="fa-solid fa-arrow-right" style="color: white;font-size: 207%;margin:8px;"></i></a>
+          </li>
+          <li class="ftco-animate">
+            <a href="#" class="ftco-white-icon"><i class="fa-solid fa-arrow-left" style="font-size: 207%;margin:8px;"></i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="col-lg-2">
+        <ul class="ftco-footer-social-3 list-unstyled float-md-left float-lft mt-5 "></ul>
+          
+        </ul>
+
+      </div> -->
+      
+    </div>
+  </div>
+</div>
+
+<div class=" container-fluid bg-dark mt-5">
+  <div class=" container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 text-center mt-4">
+        <img src="image/Group1.png">
+
+        <!-- <div class="wb-icon">
+          <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+        </div> -->
+
+        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+          <li class=" text-white"><a href="#"><i class="fa-brands fa-facebook-f fs-3 py-2" style="color: #012138;"></i></a></li>
+          <li class=""><a href="#"><i class="fa-brands fa-instagram fs-3 py-2" style="color: #012138;"></i></a></li>
+          <li class=""><a href="#"><i class="fa-brands fa-twitter fs-3 p-3 py-2" style="color: #012138;"></i></a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 mt-4"> 
+        <h3 class=" text-white">
+          Quick Links
+        </h3>
+        <div class="d-flex">
+          <ul class="pt-4 ps-2 text-white" style="line-height: 36px; list-style: none;">
+            <li> Home</li>
+            <li>About Us</li>
+            <li>Practice Areas</li>
+            <li>News</li>
+            <li>Contact Us</li>
+          </ul> 
+      </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 mt-4"> 
+        <h3 class=" text-white">
+          Practice Areas
+        </h3>
+        <div class="d-flex">
+          <ul class="pt-4 ps-2 text-white" style="line-height: 36px; list-style: none;">
+            <li>Family Law</li>
+            <li>Real Estate Law</li>
+            <li>Criminal Law</li>
+            <li>Wills & Estates</li>
+            <li>Commercial Law</li>
+              <li>Privacy Law</li>
+          </ul> 
+      </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 mt-4"> 
+        <h3 class=" text-white">
+          Contact Us
+        </h3>
+        <div class="d-flex">
+          <div class="mt-4">
+          <h4 class=" text-white">
+            Our Location :
+          </h4>
+          <p class="text-white">412, Lawyer's Chamber, Block 1,</p>
+
+          <h4 class=" text-white">
+          Phone :
+          </h4>
+          <p class="text-white">011-20841442</p>
+
+          <h4 class=" text-white">
+          Email :
+          </h4>
+          <p class="text-white">info@ahmad.com</p>
+        </div>
+
+          
+      </div>
+
+      </div>
+
+    </div>
+    <div class=" container">
+      <p class="text-white text-center p-5 copyright">Copyright © 2024 Ahmad Law. All rights reserved.</p>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.getElementById("alt-msg").style.display="none";
+      document.getElementById("logout-btn").style.display="none";
+      function login()
+      {
+        let userA=document.getElementById("login-user").value; 
+        let userB=document.getElementById("login-password").value; 
+        if(userA==="myname" && userB==="myname")
+        {
+          window.open("index.html","_self");
+
+        }
+        else
+        {
+          document.getElementById("alt-msg").style.display="block"; ;
+        }
+      }
+
+      function loginClear()
+      {
+        document.getElementById("login-user").value="";
+        document.getElementById("login-password").value="";
+        document.getElementById("alt-msg").style.display="none";
+      }
+    </script>
+    
+</body>
+</html>
